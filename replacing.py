@@ -1,0 +1,6 @@
+print("enter the string?")
+str1=input()
+print("enter the character to be removed?")
+ch=input()
+str2=str1.replace(ch,"")
+print(str2)
